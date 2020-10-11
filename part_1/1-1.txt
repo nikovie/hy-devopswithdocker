@@ -1,0 +1,7 @@
+Script started on 2020-10-11 02:50:13+0300
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                          PORTS               NAMES
+6e354ae17517        nginx               "/docker-entrypoint.…"   2 minutes ago       Exited (0) About a minute ago                       kind_hoover
+6c774c20296f        nginx               "/docker-entrypoint.…"   2 minutes ago       Exited (0) About a minute ago                       heuristic_mcclintock
+299cc465b1e4        nginx               "/docker-entrypoint.…"   9 minutes ago       Up 9 minutes                    80/tcp              tender_borg
+
+Script done on 2020-10-11 02:50:13+0300

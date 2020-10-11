@@ -1,0 +1,12 @@
+docker run -d -it -e website=helsinki.fi ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+docker exec -it laughing_bassi bash
+
+apt-get update; apt-get install curl
+
+docker container stop laughing_bassi
+
+docker container start -i laughing_bassi 
+
+Input website:
+helsinki.fi
